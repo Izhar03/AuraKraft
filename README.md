@@ -77,6 +77,8 @@ AuraKraft is an innovative application that harmonizes emotion recognition with 
 
 Below is a detailed workflow diagram showing how users interact with AuraKraft:
 
+![image_alt](https://github.com/Izhar03/AuraKraft/blob/68159592eeb61f7e0d891db6e1783398b9926a37/Flow.png)
+
 The diagram above illustrates the complete user journey from accessing the application to exiting, including all possible interaction paths and decision points.
 
 ## Contributing

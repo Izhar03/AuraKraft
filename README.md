@@ -1,10 +1,10 @@
 # AuraKraft 
 
-An emotion-aware music player that creates the perfect soundtrack for your mood.
+An emotion-aware music recommendation system that lists the perfect soundtrack for your mood and captivating insights.
 
 ## Overview
 
-AuraKraft is an innovative application that harmonizes emotion recognition with music playback, creating a uniquely personalized listening experience. By utilizing your webcam and advanced AI, the app detects your current emotional state and curates Spotify playlists that resonate with your mood.
+AuraKraft is an innovative application that harmonizes emotion recognition with music playback, creating a uniquely personalized song listing experience. By utilizing your webcam and advanced AI, the app detects your current emotional state and curates Spotify songs that resonate with your mood.
 
 ## Features
 

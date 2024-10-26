@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion-Based Music Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Emotion Detection & Music Recommender</h1>
+        
+        <button id="startButton">Start Capturing Emotion</button>
+        
+        <div id="videoContainer" class="hidden">
+            <video id="video" width="640" height="480" autoplay></video>
+            <canvas id="canvas" width="640" height="480" class="hidden"></canvas>
+        </div>
+        
+        <div id="result" class="hidden">
+            <h2>Your current emotion is: <span id="emotion"></span></h2>
+            
+            <div id="songList" class="hidden">
+                <h3>Recommended Songs for Your Mood:</h3>
+                <div id="songs" class="songs-container"></div>
+            </div>
+            
+            <div id="songDetails" class="hidden">
+                <h3>Song Details</h3>
+                <div id="detailsContent"></div>
+                <button id="backToSongs">Back to Songs</button>
+            </div>
+            
+            <button id="retryButton">Try for a new emotion</button>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
